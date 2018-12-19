@@ -1,0 +1,45 @@
+body{
+width:100%;
+height: 100%;
+}
+.interval1
+{
+    background-image: url("../Mask\ Group\ 1.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 1080px;
+    
+}
+.interval1 ::before
+{
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+    left: 0;
+	background-image: linear-gradient(to bottom right #000000,#545454);
+	opacity: .6; 
+}
+.navbar
+{
+    background-color: transparent;
+    border: none;
+    
+}
+.wrapper
+{
+    padding-top: 16px;
+}
+li.logo
+{
+    font-style: SF Pro Display;
+    font-weight: bold;
+    font-size: 51px;
+    text-align: left;
+}
+@media screen and (max-width: 600px) {
+    .navbar{
+      font-size: 30px;
+    }
+  }
